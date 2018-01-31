@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Menu</title>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="css/mi_css.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="#">Menu1</a></li>
+    <li onmouseenter="showDropdown(event)" onmouseleave="hideDropdown(event)"><a href="#">Menu2</a>
+      <ul>
+        <li><a href="#">Submenu2.1</a></li>
+        <li><a href="#">Submenu2.2</a></li>
+        <li><a href="#">Submenu2.3</a></li>
+      </ul>
+    </li>
+    <li onmouseenter="showDropdown(event)" onmouseleave="hideDropdown(event)"><a href="#">Menu3</a>
+      <ul>
+        <li><a href="#">Submenu3.1</a></li>
+        <li><a href="#">Submenu3.2</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Menu4</a></li>
+  </ul>
+</nav>
+
+<script src="js/mi_script.js" charset="utf-8"></script>
+</body>
+</html>
